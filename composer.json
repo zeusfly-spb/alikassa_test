@@ -1,0 +1,24 @@
+{
+  "name": "ies-crm/crypto",
+  "description": "Crypto balance accounting module (wallet/ledger/withdrawals) for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^12.0",
+    "illuminate/database": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IesCrm\\\\Crypto\\\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IesCrm\\\\Crypto\\\\CryptoServiceProvider"
+      ]
+    }
+  }
+}
+
